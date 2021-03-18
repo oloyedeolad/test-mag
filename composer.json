@@ -1,0 +1,20 @@
+{
+  "name": "TestVendor",
+  "version": "1.0.1",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+  },
+
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Klasha\\Klasha\\": ""
+    }
+  }
+}
